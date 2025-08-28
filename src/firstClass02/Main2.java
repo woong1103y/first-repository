@@ -29,7 +29,18 @@ Inpa Dev: Git의 개념과 원리를 그림과 비유를 사용해 알기 쉽게
 		  git add . 모든걸 하겠다
 		  git status 어떤 파일 올릴수 있는지 확인
 		  
-		  --히스토리 만들기 -> commit (진짜파일, 진짜짠짜파일, 진짜짜자자자파일)
+		  --히스토리 만들기 -> commit (진짜파일, 진짜짠짜파일, 진짜짜자자자파일) 히스토리 이름
+		  git commit -m "first commit"
+		  
+		  그다음에 깃허브에 보내야 되는데
+		  연결 고리가 없다
+		  연결 고리는
+		  git remote add origin https://github.com/woong1103y/first-repository.git
+		  
+		  그 다음은 push로 보낸다
+		  git push origin master
+		  
+		  
 		  
 		  
 		  
